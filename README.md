@@ -1,24 +1,8 @@
-# wad_homework3
+# Web Application Development homework #3
+### Lab Group 7; Moodle Group E
+#### Authors:
+Richard-Sven Rivik
 
-## Project setup
-```
-npm install
-```
+Oskar Pärsim 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Johannes Tammerand
