@@ -2,8 +2,8 @@
     <header>
       <nav>
         <ul>
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/signup">Signup</router-link></li>
+          <li><router-link to="/" class="nav-link">Home</router-link></li>
+          <li><router-link to="/signup" class="nav-link">Signup</router-link></li>
         </ul>
       </nav>
     </header>
@@ -17,16 +17,28 @@
   
   <style scoped>
   header {
-    background-color: #f4f4f4;
-    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
   }
+  
   nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
     gap: 20px;
+    padding: 10px;
+    margin: 0px;
   }
-  nav ul li {
-    display: inline;
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: whitesmoke;
   }
   </style>
   
