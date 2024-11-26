@@ -49,7 +49,8 @@ export default {
 
 <style scoped>
 main {
-  padding: 20px;
+  padding-left: clamp(0px, 10%, 200px);
+  padding-right: clamp(0px, 10%, 200px);
 }
 
 .reset-button {
