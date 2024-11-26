@@ -28,17 +28,17 @@ export default {
   components: {
     HeaderComponent,
     FooterComponent,
-    PostComponent, // Register PostComponent
+    PostComponent,
   },
   computed: {
-    ...mapGetters(['allPosts']), // Map Vuex getter
+    ...mapGetters(['allPosts']),
     posts() {
       return this.allPosts;
     }
   },
   methods: {
     resetAllLikes() {
-      this.$store.dispatch('resetLikes'); // Dispatch Vuex action to reset likes
+      this.$store.dispatch('resetLikes');
     }
   },
   mounted() {
@@ -71,8 +71,8 @@ h1 {
 }
 
 .posts-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
