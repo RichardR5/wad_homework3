@@ -10,11 +10,17 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@types/bonjour": "^3.5.13",
+    "@types/estree": "^1.0.6",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/http-proxy": "^1.17.15",
+    "@types/json-schema": "^7.0.15",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
